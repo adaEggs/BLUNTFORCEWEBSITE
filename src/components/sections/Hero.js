@@ -46,10 +46,9 @@ const Hero = ({
       className={outerClasses}
     >
               <Image
-                className="has-shadow"
+                className="bannerhome"
                 src={require('./../../assets/images/banner.jpg')}
                 alt="Hero"
-                width={100%}
                 height={100%} />
       <div className="container-sm">
         <div className={innerClasses}>

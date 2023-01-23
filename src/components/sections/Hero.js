@@ -49,7 +49,7 @@ const Hero = ({
                 className="bannerhome"
                 src={require('./../../assets/images/banner.jpg')}
                 alt="Hero"
-                height={100%} />
+                />
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">

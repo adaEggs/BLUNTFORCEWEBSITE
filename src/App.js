@@ -33,6 +33,7 @@ const App = () => {
   }, [location]);
 
   return (
+    <ScrollReveal
       ref={childRef}
       children={() => (
         <Switch>
@@ -41,6 +42,3 @@ const App = () => {
       )} />
   );
 }
-
-}
-export default App;

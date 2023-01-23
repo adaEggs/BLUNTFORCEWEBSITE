@@ -45,11 +45,11 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-              <Image
+              <div
                 className="bannerhome"
                 src={require('./../../assets/images/banner.jpg')}
-                alt="Hero"
-                />
+                alt="Hero">
+               </div>
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">

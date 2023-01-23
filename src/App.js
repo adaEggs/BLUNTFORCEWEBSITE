@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { useLocation, Switch } from 'react-router-dom';
+import { MeshProvider } from "@meshsdk/react";
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
@@ -32,14 +33,16 @@ const App = () => {
   }, [location]);
 
   return (
-    <ScrollReveal
+    <MeshProvider>
       ref={childRef}
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
         </Switch>
       )} />
+  </MeshProvider>
   );
 }
 
+}
 export default App;

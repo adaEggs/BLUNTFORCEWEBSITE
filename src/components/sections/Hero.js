@@ -45,17 +45,13 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container-sm">
-         <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-         
               <Image
                 className="has-shadow"
                 src={require('./../../assets/images/video-placeholder.jpg')}
                 alt="Hero"
                 width={896}
                 height={504} />
-       
-        </div>
+                  
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
